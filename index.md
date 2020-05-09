@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Math Comp & Dat Sci"
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
