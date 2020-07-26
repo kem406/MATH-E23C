@@ -19,13 +19,13 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 ## Arguments
 
-**data**
+**data**  provide the function with your dataset csv file. If left blank, the function will prompt you to select the file in your folder.
 
-t
+**tt**  the "time" between each step. Not necessarily 1:1 with seconds.  
 
-bar
+**bar** set as TRUE if you want barplots of your data.
 
-dist
+**dist**
 
 perm
 
