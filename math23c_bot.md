@@ -37,40 +37,40 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **neuralnet** - Set as TRUE if you want to make a prediction using a neural net.
 
-**col1** -
+**col1** - The first data column used in the permutation test.
 
-**col2** -
+**col2** - The second data column used in the permutation test.
 
-**val1** -
+**val1** - The value in col1 you want to test. Can also be c().  
 
-val2
+**val2** - If left blank, the permutation test is done using val1 vs. everything that *isn't* val1. If val2 is given, the test is done in terms of val1 vs val2. Like val1, this val2 can actually be several values using c().
 
-N
+**N** - The number of iterations used in the sampling for the permutation test.
 
-limit
+**limit** - This integer value limits the function to creating contingency tables using data columns with only a certain number of unique values. Useful for avoiding the creation of gigantic unreadable contingency tables.
 
-color
+**color** - The color parameter used in ggplot.
 
-shape
+**shape** - 
 
-size
+**size** -
 
-log
+**log** -
 
-myf
+**myf** -
 
-variable
+**variable** -
 
-outputs
+**outputs** -
 
-outIn
+**outIn** -
 
-hidden
+**hidden** -
 
-string
+**string** -
 
-err
+**err** -
 
-lin
+**lin** -
 
-modelMatrix
+**modelMatrix** -
