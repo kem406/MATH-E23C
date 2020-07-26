@@ -19,29 +19,29 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 ## Arguments
 
-**data**  provide the function with your dataset csv file. If left blank, the function will prompt you to select the file in your folder.
+**data** - Provide the function with your dataset csv file. If left blank, the function will prompt you to select the file in your folder.
 
-**tt**  the "time" between each step. Not necessarily 1:1 with seconds.  
+**tt** - The "time" between each step. Not necessarily 1:1 with seconds.  
 
-**bar** set as TRUE if you want barplots of your data.
+**bar** - Set as TRUE if you want barplots of your data.
 
-**dist**
+**dist** - Set as TRUE if you want to test the fitting of a gamma and normal distribution to every column in your data.
 
-perm
+**perm** - Set as TRUE if you want to do a permutation test involving two columns of data.
 
-table
+**table** - Set as TRUE if you want contingency tables of your data.
 
-scatter
+**scatter** - Set as TRUE if you want to see a scatterplot between every two columns in your dataset, in both orders.
 
-ctree
+**ctree** - Set as TRUE if you want to make a prediction using a decision tree.
 
-neuralnet
+**neuralnet** - Set as TRUE if you want to make a prediction using a neural net.
 
-col1
+**col1** -
 
-col2
+**col2** -
 
-val1
+**val1** - 
 
 val2
 
