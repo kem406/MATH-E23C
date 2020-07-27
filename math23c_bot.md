@@ -43,7 +43,7 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **val1** - The value in col1 you want to test. Can also be c().  
 
-**val2** - If left blank, the permutation test is done using val1 vs. everything that *isn't* val1. If val2 is given, the test is done in terms of val1 vs val2. Like val1, this val2 can actually be several values using c().
+**val2** - If left blank, the permutation test is done using val1 vs. everything that *isn't* val1. If val2 is given, the test is done in terms of val1 vs val2. Like val1, this value can actually be several values using c().
 
 **N** - The number of iterations used in the sampling for the permutation test.
 
@@ -61,7 +61,7 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **variable** - The (string) name of the variable to be used in the decision tree.
 
-**outputs** - The data column representing the outputs of the neural net will be split into n columns, with n being the number of discrete values in that column. The integers denoting the positions of these new columns in the resulting pre-processed dataset go into a c() for this argument. For example, if the output is the first dataset column with 9 discrete values, use c(1,2,3,4,5,6,7,8,9).
+**outputs** - The data column representing the outputs of the neural net will be split into n columns, with n being the number of discrete values in that column. The integers denoting the positions of these new columns in the resulting pre-processed dataset go into a c() for this argument. For example, if the output is the first dataset column has 9 discrete values, use c(1,2,3,4,5,6,7,8,9).
 
 **outIn** - The formula parameter in neuralnet().
 
