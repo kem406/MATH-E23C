@@ -73,4 +73,4 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **lin** - The linear.output parameter in neuralnet().
 
-**modelMatrix** - The object parameter in model.matrix(). For this parameter, use as.formula(~x+0+y_1+y_2+...+y_n) where x is the name of the output column, and y_1...y_n are the names of the input columns
+**modelMatrix** - The object parameter in model.matrix(). For this parameter, use as.formula(~x+0+y<1>+y<2>+...+y<n>) where x is the name of the output column, and y<1>...y<n> are the names of the input columns
