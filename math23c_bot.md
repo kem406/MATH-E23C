@@ -61,7 +61,7 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **variable** - The (string) name of the variable to be used in the decision tree.
 
-**outputs** - The data column representing the outputs of the neural net will be split into n columns, with n being the number of discrete values in that column. The integers denoting the positions of these new columns in the resulting pre-processed dataset go into a c() for this argument. For example, if the output is the first dataset column has 9 discrete values, use c(1,2,3,4,5,6,7,8,9).
+**outputs** - The data column representing the outputs of the neural net will be split into n columns, with n being the number of discrete values in that column. The integers denoting the positions of these new columns in the resulting pre-processed dataset go into a c() for this argument. For example, if the output is the first dataset column and contains 9 discrete values, use c(1,2,3,4,5,6,7,8,9).
 
 **outIn** - The formula parameter in neuralnet().
 
@@ -73,4 +73,4 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **lin** - The linear.output parameter in neuralnet().
 
-**modelMatrix** - The object parameter in model.matrix(). For this parameter, use as.formula(~x+0+y<1>+y<2>+...+y<n>) where x is the name of the output column, and y<1>...y<n> are the names of the input columns
+**modelMatrix** - The object parameter in model.matrix(). For this parameter, use as.formula(~x+0+y<sub>1</sub>+y<sub>2</sub>+...+y<sub>n</sub>) where x is the name of the output column, and y<sub>1</sub>...y<sub>n</sub> are the names of the input columns
