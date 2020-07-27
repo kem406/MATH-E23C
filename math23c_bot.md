@@ -51,26 +51,26 @@ math23c_bot(data=NULL, t=5, bar=FALSE, dist=FALSE, perm=FALSE, table=FALSE,
 
 **color** - The color parameter used in ggplot.
 
-**shape** - 
+**shape** - The shape parameter used in ggplot.
 
-**size** -
+**size** - The size parameter used in ggplot.
 
-**log** -
+**log** - If TRUE, scatterplots will use logarithmic regression instead of linear regression.  
 
-**myf** -
+**myf** - The myf parameter used in ctree().
 
-**variable** -
+**variable** - The (string) name of the variable to be used in the decision tree.
 
-**outputs** -
+**outputs** - The data column representing the outputs of the neural net will be split into n columns, with n being the number of discrete values in that column. The integers denoting the positions of these new columns in the resulting pre-processed dataset go into a c() for this argument. For example, if the output is the first dataset column with 9 discrete values, use c(1,2,3,4,5,6,7,8,9).
 
-**outIn** -
+**outIn** - The formula parameter in neuralnet().
 
-**hidden** -
+**hidden** - The hidden parameter in neuralnet().
 
-**string** -
+**string** - If the output column has discrete integer values, these must be converted to strings. This parameter takes in an integer representing the position of the column in the dataset.
 
-**err** -
+**err** - The err.fct parameter in neuralnet().
 
-**lin** -
+**lin** - The linear.output parameter in neuralnet().
 
-**modelMatrix** -
+**modelMatrix** - The object parameter in model.matrix(). For this parameter, use as.formula(~x+0+y_1+y_2+...+y_n) where x is the name of the output column, and y_1...y_n are the names of the input columns
